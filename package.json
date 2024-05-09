@@ -1,0 +1,25 @@
+{
+  "name": "aaron-profile",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A profile about aaron",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aarebecca/profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aarebecca/profile/issues"
+  },
+  "homepage": "https://github.com/Aarebecca/profile#readme",
+  "devDependencies": {
+    "vitepress": "^1.1.4"
+  }
+}
