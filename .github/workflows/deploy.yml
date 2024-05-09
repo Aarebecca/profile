@@ -24,8 +24,11 @@ jobs:
       - name: Build
         run: npm run docs:build
 
+      - name: CNAME
+        run: echo 'iaaron.org' > ./.vitepress/dist/CNAME
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./.vitepress/dist
